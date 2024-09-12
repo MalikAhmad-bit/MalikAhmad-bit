@@ -1,0 +1,125 @@
+.fstdiv{
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+    background-color: black;
+    width: 23%;
+}
+.scnddiv{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+.btndiv{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+.button{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border: 20px;
+    border-radius: 20px;
+    border-color:brown;
+    border-style:groove ;
+}
+.learning{
+    text-align: center;
+    margin: auto;
+    width: 23%;
+    font-size: large;
+}
+.gamesss{
+    text-align: center;
+    margin: auto;
+    width: 40%;
+}
+
+.gamesss{
+    display: none;
+}
+.learning{
+    display: none;
+}
+.button1{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    border: 20px;
+    border-radius: 20px;
+  
+}
+
+#board {
+    margin-left: auto;
+    margin-right: auto;
+    width: 375px;
+    height: 375px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+   
+}
+
+.square {
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: gainsboro;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square:hover {
+    background-color: #747474;}
+
+    .button2{
+        margin: auto;
+        text-align: center;
+        width: 300px;
+        height: 80px;
+        background-color: black;
+        color: white;
+        font-size: larger;
+        border: 20px;
+        border-radius: 20px;
+      
+    }    
+
+  .btn1{
+    display: none;
+  }  
+  .button1:active{
+    background-color: red;
+  }
+  .button1:hover{
+    background-color: blue;
+  }
+  .button1:visited{
+    background-color: blueviolet;
+  }
+  .button1:link{
+    background-color: cadetblue;
+  }
+  .button:active{
+    background-color: red;
+  }
+  .button:hover{
+    background-color:brown;
+  }
+  .button:visited{
+    background-color: blueviolet;
+  }
+  .button:link{
+    background-color: cadetblue;
+  }
